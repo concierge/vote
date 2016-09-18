@@ -1,11 +1,12 @@
 ﻿{
   "name": "vote",
-  "version": 2.1,
+  "version": 3.0,
   "startup": "vote.js",
   "command": "vote",
   "help": [
     [ "{{commandPrefix}}vote <question> <optionalTimeout> <answer1> <answer2>\"...'", "Call a vote on a question." ],
     [ "{{commandPrefix}}vote cancel", "cancel the current vote." ],
+    [ "{{commandPrefix}}vote end", "cancel the vote printing the results."],
     [ "{{commandPrefix}}vote <number>", "vote for an option." ]
   ]
 }
